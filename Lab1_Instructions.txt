@@ -1,0 +1,82 @@
+                         CS 1430 - Lab 1
+LAB:      1
+DUE DATE: 1/28/2016, 5:00PM
+GRACE DATE: 2/3/2016, 5:00PM
+
+===========================================================================
+Please read this entire file before beginning!
+
+Lab1.cpp is a PARTIAL SOLUTION TO THE PROBLEM LISTED BELOW.  
+Look for lines in the program that start with the string "//DO" to locate
+specific tasks that need to be completed for this lab.  There are eight (8)
+of these tasks.
+
+After creating a new C++ project, right click the "Source Files" in the Solution 
+Explorer and click Add -> Existing Item, to add Lab1.cpp to the project.
+Select "Build Solution" or F7 to compile Lab1.cpp.  You should see errors on line 35.
+
+VisualStudio is currently highlighting the '<<'. This should be `>>' since we want
+to read the value of the integer from the user.  Fix this error.  In this
+case, the error message was right where the error actually occurred.
+Often, however, you need to look elsewhere on the current line or previous
+line to find what needs to be fixed.
+
+Save your program, rebuild it to verify the fix you 
+implemented was correct.  You should generally save significant changes 
+to your program before you attempt compile or run it, 
+otherwise you might lose your work due to unexpected problems.
+
+From the DEBUG menu, select "Start Without Debuging" or Ctrl-F5 to run the program.
+Enter values after prompts for number1 and value for number2.  
+
+===========================================================================
+
+Complete Lab1.cpp to compute and print the integer quotient, the float
+quotient, and the integer remainder of two inputed integers.
+The program should adhere to the following pseudocode:
+
+    1.  Read first integer number and second integer number.
+    2.  Calculate the integer quotient.
+    3.  Display the results of the integer quotient.         (//DO 04)
+    4.  Calculate the float quotient.                        (//DO 05)
+    5.  Display the results of the float quotient.           (//DO 06)
+    6.  Calculate the integer remainder (modulo arithmetic). (//DO 07) 
+    7.  Display the results of the modulo operation.         (//DO 08)  
+	
+IMPORTANT HINT:
+Steps 1. and 2. are already carried out in the program on lines
+30-37. 
+	  
+Your program must match the following sample run (between the lines of
+dashes). Note that the 7 and 4 on the first two lines were entered by the
+user.
+
+-------------------Example output between dashed lines when running from Visual Studio-------
+Enter the first integer: 7
+Enter the second integer: 4
+
+
+Using integer division, 7 / 4 = 1.
+Using floating-point division, 7 / 4 = 1.75.
+7 modulo 4 = 3.
+----------------------------------------------------------------------
+
+Notes:
+  - Get help if you're stuck or spinning wheels!
+  - Your output MUST contain blank lines in the same places as 
+    above output.
+  - Test your program on other values as well.
+
+===========================================================================
+
+When you're finished testing your program on your own inputs, submit it to
+the grader.  The grader will run your program on some sample inputs and
+count the number of errors or differences between your output and the desired
+output.  For labs, you must have 0 output errors to receive credit.  
+
+You can resubmit as many times as needed.  Your score will be based on the
+last submission ONLY.
+
+Make sure that you save your work on your 'J' 
+drive or memory stick as you may find some of this work usefull in future 
+programs.
